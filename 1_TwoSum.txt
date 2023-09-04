@@ -6,3 +6,5 @@ Example:
 Input: nums = [2, 7, 11, 15], target = 9
 Output: [1, 2]
 
+Important Constraints: 
+- Only ONE valid answer exists. => No need to check if there is NO such sum in the array.
