@@ -9,3 +9,4 @@ def is_palindrome(x: int) -> bool:
     return isPalin
 
 print(is_palindrome(121))
+print(is_palindrome(-121))
