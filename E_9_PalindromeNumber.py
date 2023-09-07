@@ -18,9 +18,10 @@ def noString_palindrome(x: int) -> bool:
     
     rev_num = 0
     
+    # reversing x by adding its digits from last to first to rev_num
     while x > rev_num:
-        rev_num = rev_num * 10 + x % 10
-        x //= 10
+        rev_num = rev_num * 10 + x % 10 # this always adds x's last digit to rev_num
+        x //= 10    # this ensures the next iteration starts from x's 2nd to last digit
     
     # if x.len is even then we have to check x == rev_num
     # else check x == rev_num // 10
