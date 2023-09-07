@@ -1,0 +1,5 @@
+Given a roman numeral, convert it to an integer.
+
+Input: s = "III"
+Output: 3
+
