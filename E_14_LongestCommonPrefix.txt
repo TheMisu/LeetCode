@@ -8,4 +8,6 @@ Input: strs = ["dog", "racecar", "car"]
 Output: ""
 
 Constraints:
-strs[i] consists of only lowercase English letters.
+1) 1 <= strs.len <= 200 => MUST check if the input list is empty
+2) 0 <= strs[i].len <= 200 => strs can contain the empty string ""
+3) strs[i] consists of only lowercase English letters.
