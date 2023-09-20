@@ -3,11 +3,11 @@ Write a function to find the longest common prefix string amongst an array of st
 If there is no common prefix, return an empty string "".
 
 # Examples:
-1. Input: strs = ["flower", "flow", "flight"]
-1. Output: "fl"
+- Input: strs = ["flower", "flow", "flight"]
+- Output: "fl"
 
-2. Input: strs = ["dog", "racecar", "car"]
-2. Output: ""
+- Input: strs = ["dog", "racecar", "car"]
+- Output: ""
 
 # Constraints:
 - 1 <= strs.len <= 200 => MUST check if the input list is empty
